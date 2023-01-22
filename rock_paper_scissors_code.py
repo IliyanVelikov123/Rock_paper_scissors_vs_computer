@@ -1,10 +1,11 @@
 import random
+from colorama import Fore, Back, Style
 
 rock = "Rock"
 paper = "Paper"
 scissors = "Scissors"
 
-name = input("Please input your name: ")
+name = input(Fore.RED + "Please input your name: ")
 print()
 print("This is a contest out of 5 games. The first to win 3 games, wins the contest!")
 
