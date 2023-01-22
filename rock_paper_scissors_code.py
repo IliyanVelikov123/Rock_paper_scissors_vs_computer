@@ -5,6 +5,7 @@ paper = "Paper"
 scissors = "Scissors"
 
 name = input("Please input your name: ")
+print()
 print("This is a contest out of 5 games. The first to win 3 games, wins the contest!")
 
 computer_win_count = 0
